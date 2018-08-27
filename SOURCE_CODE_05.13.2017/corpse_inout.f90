@@ -86,6 +86,7 @@ SUBROUTINE corpse_init(maxSteps, filename_corpseipool, mp, initcasaVal)
 
           ! Qmax now depends on clay content. -mdh 3/23/2017
           ! Qmax_clay in mgC/kg soil from Mayes et al 2012, converted to g/m3 using solid density of 2650 kg/m3
+          ! Checking units: mgC/kg * 2650 kg/m3 * 0.000001 kgC/mgC = kgC/m3 (not gC/m3) -mdh 7/23/2018 (correct?).
           clay =  soil%clay(ii)*100.0   ! clay (%)
           porosity =  soil%ssat(ii)     ! porosity (0.0-1.0)
           if(clay .le. 0.0) then
