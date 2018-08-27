@@ -2099,12 +2099,19 @@ END SUBROUTINE ReadMetNcFile
 !   ARGUMENTS
       integer, intent(in) :: ncid			! netcdf file id
       integer, intent(in) :: varid			! netcdf variable id
-      character*100, intent(in) :: attr_name		! String for assigning variable "long_name" attribute
-      character*100, intent(in) :: attr_units		! String for assigning variable "units" attribute
+      character(len=100), intent(in) :: attr_name		! String for assigning variable "long_name" attribute
+      character(len=100), intent(in) :: attr_units		! String for assigning variable "units" attribute
       real(4), intent(in) :: missing_value
       
 !   LOCAL VARIABLES
       integer status	! NetCDF error status
+
+!     write(*,*)
+!     write(*,*) 'PutVariableAttributeReal: ncid = ', ncid
+!     write(*,*) 'PutVariableAttributeReal: varid = ', varid
+!     write(*,*) 'PutVariableAttributeReal: attr_name = ', trim(attr_name)
+!     write(*,*) 'PutVariableAttributeReal: attr_units = ', trim(attr_units)
+!     write(*,*) 'PutVariableAttributeReal: missing_value = ', missing_value
 
       status = nf_put_att_text(ncid, varid, 'long_name', len(trim(attr_name)), trim(attr_name))
       if (status /= nf_noerr) call handle_err(status, "long_name")
@@ -2129,8 +2136,8 @@ END SUBROUTINE ReadMetNcFile
 !   ARGUMENTS
       integer, intent(in) :: ncid			! netcdf file id
       integer, intent(in) :: varid			! netcdf variable id
-      character*100, intent(in) :: attr_name		! String for assigning variable "long_name" attribute
-      character*100, intent(in) :: attr_units		! String for assigning variable "units" attribute
+      character(len=100), intent(in) :: attr_name		! String for assigning variable "long_name" attribute
+      character(len=100), intent(in) :: attr_units		! String for assigning variable "units" attribute
       real(8), intent(in) :: missing_value
       
 !   LOCAL VARIABLES
