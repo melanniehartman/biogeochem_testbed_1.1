@@ -1,0 +1,2 @@
+myear,npt,veg%iveg,soil%isoilm,casamet%isorder,casamet%lat,casamet%lon,casamet%areacell,casabal%Fcnppyear,casabal%FCrsyear,casabal%FCneeyear,casabal%FCrpyear,clitterinput(LEAF),clitterinput(WOOD),clitterinput(FROOT),csoilinput(METB),csoilinput(METB),csoilinput(METB)
+    20,       1,      10,       1,       1,        40.810000,       255.240000,        44.378730,        71.907414,        96.327919,       -24.420505,       104.216686,         0.000000,         0.000000,         0.000000,         0.000000,         0.000000,         0.000000,

@@ -1,0 +1,4 @@
+ Cpool: np,ivt           1           1   128.55821039628202        0.0000000000000000       -12.433844378369058     
+  WARNING: negative pools are reset to ZERO!!
+ plant carbon pool size negative!!
+ plant C pools:            1   128.55821039628202        0.0000000000000000       -12.433844378369058     

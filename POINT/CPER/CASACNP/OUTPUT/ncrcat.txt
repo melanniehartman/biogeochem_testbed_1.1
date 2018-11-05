@@ -1,0 +1,5 @@
+ncrcat casaclm_pool_CPER_????_daily.nc casaclm_pool_CPER_0001_0100_daily.nc
+
+
+
+
