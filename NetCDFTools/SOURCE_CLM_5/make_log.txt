@@ -1,0 +1,87 @@
+gfortran -g -fbacktrace -fbounds-check -fcheck=all -Wall -c -I/usr/local/netcdf-c-4.6.1-f-4.4.4-gcc-g++-gfortran-8.1.0/include shr_kind_mod.F90
+gfortran -g -fbacktrace -fbounds-check -fcheck=all -Wall -c -I/usr/local/netcdf-c-4.6.1-f-4.4.4-gcc-g++-gfortran-8.1.0/include clm_common.F90
+gfortran -g -fbacktrace -fbounds-check -fcheck=all -Wall -c -I/usr/local/netcdf-c-4.6.1-f-4.4.4-gcc-g++-gfortran-8.1.0/include canopy_model.F90
+gfortran -g -fbacktrace -fbounds-check -fcheck=all -Wall -c -I/usr/local/netcdf-c-4.6.1-f-4.4.4-gcc-g++-gfortran-8.1.0/include casacnp_model.F90
+casacnp_model.F90:1172:72:
+
+                          lon1d, lat1d, levgrnd, area, landfrac, landmask, pftmask, &
+                                                                        1
+Warning: Unused dummy argument ‘landmask’ at (1) [-Wunused-dummy-argument]
+casacnp_model.F90:1171:42:
+
+                          nlevsoi, nlevgrnd, ndays, ndtime, ndep_calyear, &
+                                          1
+Warning: Unused dummy argument ‘nlevgrnd’ at (1) [-Wunused-dummy-argument]
+casacnp_model.F90:1172:81:
+
+                          lon1d, lat1d, levgrnd, area, landfrac, landmask, pftmask, &
+                                                                                 1
+Warning: Unused dummy argument ‘pftmask’ at (1) [-Wunused-dummy-argument]
+casacnp_model.F90:946:72:
+
+    subroutine writeCASACNPMetNcFilePt(ncFileMet, calyear, iyear1, iyear2, ilon, ilat, nlon, nlat, &
+                                                                        1
+Warning: Unused dummy argument ‘iyear2’ at (1) [-Wunused-dummy-argument]
+casacnp_model.F90:946:96:
+
+    subroutine writeCASACNPMetNcFilePt(ncFileMet, calyear, iyear1, iyear2, ilon, ilat, nlon, nlat, &
+                                                                                                1
+Warning: Unused dummy argument ‘nlat’ at (1) [-Wunused-dummy-argument]
+casacnp_model.F90:946:90:
+
+    subroutine writeCASACNPMetNcFilePt(ncFileMet, calyear, iyear1, iyear2, ilon, ilat, nlon, nlat, &
+                                                                                          1
+Warning: Unused dummy argument ‘nlon’ at (1) [-Wunused-dummy-argument]
+casacnp_model.F90:431:70:
+
+    subroutine writeCASACNPMetNcFile(ncFileMet, calyear, iyear1, iyear2, nlon, nlat, &
+                                                                      1
+Warning: Unused dummy argument ‘iyear2’ at (1) [-Wunused-dummy-argument]
+gfortran -g -fbacktrace -fbounds-check -fcheck=all -Wall -c -I/usr/local/netcdf-c-4.6.1-f-4.4.4-gcc-g++-gfortran-8.1.0/include clm_netcdf_tools.F90
+clm_netcdf_tools.F90:1320:37:
+
+                                  flds, fpsn, fsds, fsdsnd, fsdsni, fsdsvd, fsdsvi, pbot, &
+                                     1
+Warning: Unused dummy argument ‘flds’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1320:57:
+
+                                  flds, fpsn, fsds, fsdsnd, fsdsni, fsdsvd, fsdsvi, pbot, &
+                                                         1
+Warning: Unused dummy argument ‘fsdsnd’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1320:65:
+
+                                  flds, fpsn, fsds, fsdsnd, fsdsni, fsdsvd, fsdsvi, pbot, &
+                                                                 1
+Warning: Unused dummy argument ‘fsdsni’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1320:73:
+
+                                  flds, fpsn, fsds, fsdsnd, fsdsni, fsdsvd, fsdsvi, pbot, &
+                                                                         1
+Warning: Unused dummy argument ‘fsdsvd’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1320:81:
+
+                                  flds, fpsn, fsds, fsdsnd, fsdsni, fsdsvd, fsdsvi, pbot, &
+                                                                                 1
+Warning: Unused dummy argument ‘fsdsvi’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1320:87:
+
+                                  flds, fpsn, fsds, fsdsnd, fsdsni, fsdsvd, fsdsvi, pbot, &
+                                                                                       1
+Warning: Unused dummy argument ‘pbot’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1321:37:
+
+                                  qbot, rain, snow, tbot, thbot, wind, &
+                                     1
+Warning: Unused dummy argument ‘qbot’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:1321:62:
+
+                                  qbot, rain, snow, tbot, thbot, wind, &
+                                                              1
+Warning: Unused dummy argument ‘thbot’ at (1) [-Wunused-dummy-argument]
+clm_netcdf_tools.F90:921:37:
+
+    character*200 :: fileClimOutputCSV       ! Name of climate output text file (.csv)
+                                     1
+Warning: Unused variable ‘fileclimoutputcsv’ declared at (1) [-Wunused-variable]
+gfortran -g -fbacktrace -fbounds-check -fcheck=all -Wall -c main.F90
+gfortran -o netcdfTools main.o  shr_kind_mod.o clm_common.o canopy_model.o casacnp_model.o clm_netcdf_tools.o  -L/usr/local/netcdf-c-4.6.1-f-4.4.4-gcc-g++-gfortran-8.1.0/lib	 -lnetcdff

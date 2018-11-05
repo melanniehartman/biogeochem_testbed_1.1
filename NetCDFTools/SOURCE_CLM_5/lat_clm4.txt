@@ -1,0 +1,94 @@
+netcdf met_1901_1901 {
+dimensions:
+	lon = 144 ;
+	lat = 96 ;
+	time = 365 ;
+	nsoilyrs = 6 ;
+	myear = 1 ;
+variables:
+	float lon(lon) ;
+		lon:long_name = "coordinate longitude" ;
+		lon:units = "degrees_east" ;
+		lon:_FillValue = 1.e+36f ;
+		lon:missing_value = 1.e+36f ;
+	float lat(lat) ;
+		lat:long_name = "coordinate latitude" ;
+		lat:units = "degrees_north" ;
+		lat:_FillValue = 1.e+36f ;
+		lat:missing_value = 1.e+36f ;
+	int year(myear) ;
+		year:long_name = "calendar years" ;
+	float landfrac(lat, lon) ;
+		landfrac:long_name = "land fraction from pft dataset" ;
+		landfrac:units = "unitless" ;
+		landfrac:_FillValue = 1.e+36f ;
+		landfrac:missing_value = 1.e+36f ;
+	int cellMissing(lat, lon) ;
+		cellMissing:long_name = "Missing Data Mask" ;
+		cellMissing:units = "0=no missing data, 1=missing data" ;
+	int cellid(lat, lon) ;
+		cellid:long_name = "Grid Cell ID" ;
+		cellid:units = "1..nlat*nlon" ;
+	float xtairk(time, lat, lon) ;
+		xtairk:long_name = "average daily air temperature" ;
+		xtairk:units = "K" ;
+		xtairk:_FillValue = 1.e+36f ;
+		xtairk:missing_value = 1.e+36f ;
+	float ndep(time, lat, lon) ;
+		ndep:long_name = "daily N deposition derived from annual N deposition" ;
+		ndep:units = "gN/m2/day" ;
+		ndep:_FillValue = 1.e+36f ;
+		ndep:missing_value = 1.e+36f ;
+	float xlai(time, lat, lon) ;
+		xlai:long_name = "Leaf Area Index" ;
+		xlai:units = "m2/m2" ;
+		xlai:_FillValue = 1.e+36f ;
+		xlai:missing_value = 1.e+36f ;
+	float xcnpp(time, lat, lon) ;
+		xcnpp:long_name = "net primary production" ;
+		xcnpp:units = "gC m-2 day-1" ;
+		xcnpp:_FillValue = 1.e+36f ;
+		xcnpp:missing_value = 1.e+36f ;
+	float xcgpp(time, lat, lon) ;
+		xcgpp:long_name = "gross primary production" ;
+		xcgpp:units = "gC m-2 day-1" ;
+		xcgpp:_FillValue = 1.e+36f ;
+		xcgpp:missing_value = 1.e+36f ;
+	float xtsoil(time, nsoilyrs, lat, lon) ;
+		xtsoil:long_name = "average daily soil temperature by layer" ;
+		xtsoil:units = "K" ;
+		xtsoil:_FillValue = 1.e+36f ;
+		xtsoil:missing_value = 1.e+36f ;
+	float xmoist(time, nsoilyrs, lat, lon) ;
+		xmoist:long_name = "volumetric soil liquid water content by layer" ;
+		xmoist:units = "m3/m3" ;
+		xmoist:_FillValue = 1.e+36f ;
+		xmoist:missing_value = 1.e+36f ;
+	float xfrznmoist(time, nsoilyrs, lat, lon) ;
+		xfrznmoist:long_name = "volumetric soil frozen water content by layer" ;
+		xfrznmoist:units = "m3/m3" ;
+		xfrznmoist:_FillValue = 1.e+36f ;
+		xfrznmoist:missing_value = 1.e+36f ;
+
+// global attributes:
+		:title = "CLM History file information for CASACNP model" ;
+		:comment = "NOTE: None of the variables are weighted by land fraction!" ;
+		:history = "created on 03/13/2017 15:28:21" ;
+		:source = "CLM Model" ;
+data:
+
+ lat = -90, -88.10526, -86.21053, -84.31579, -82.42105, -80.52631, -78.63158, 
+    -76.73684, -74.8421, -72.94736, -71.05264, -69.1579, -67.26316, 
+    -65.36842, -63.47368, -61.57895, -59.68421, -57.78947, -55.89474, -54, 
+    -52.10526, -50.21053, -48.31579, -46.42105, -44.52632, -42.63158, 
+    -40.73684, -38.84211, -36.94737, -35.05263, -33.15789, -31.26316, 
+    -29.36842, -27.47368, -25.57895, -23.68421, -21.78947, -19.89474, -18, 
+    -16.10526, -14.21053, -12.31579, -10.42105, -8.526316, -6.631579, 
+    -4.736842, -2.842105, -0.9473684, 0.9473684, 2.842105, 4.736842, 
+    6.631579, 8.526316, 10.42105, 12.31579, 14.21053, 16.10526, 18, 19.89474, 
+    21.78947, 23.68421, 25.57895, 27.47368, 29.36842, 31.26316, 33.15789, 
+    35.05263, 36.94737, 38.84211, 40.73684, 42.63158, 44.52632, 46.42105, 
+    48.31579, 50.21053, 52.10526, 54, 55.89474, 57.78947, 59.68421, 61.57895, 
+    63.47368, 65.36842, 67.26316, 69.1579, 71.05264, 72.94736, 74.8421, 
+    76.73684, 78.63158, 80.52631, 82.42105, 84.31579, 86.21053, 88.10526, 90 ;
+}
