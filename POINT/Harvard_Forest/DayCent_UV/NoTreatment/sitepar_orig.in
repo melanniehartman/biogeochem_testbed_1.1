@@ -1,0 +1,59 @@
+2         / 0 = no extra drivers, 1 = PET drivers, 2 = psyn drivers, 3 = both
+1         / sublimscale
+0.18      / vegetation reflectivity (frac)
+0.20      / albedo (frac) hardwoods = 0.20 spruce = 0.10
+0.6       / fswcinit - initial swc, fraction of field capacity
+0.000008  / dmpflux - in h2oflux routine (0.000001 = original value)
+10        / hours_rain - duration of each rain event
+0        / # of days between rainfall event and drainage of soil (-1=computed)
+1  0     / watertable[month] - 0 = no water table, 1 = water table
+2  0
+3  0
+4  0
+5  0
+6  0
+7  0
+8  0
+9  0
+10 0
+11 0
+12 0
+-200      / hpotdeep - hydraulic water potential of deep storage layer (units?)
+0.0003    / ksatdeep - saturated hydraulic conductivity of deep storage layer (cm/sec)
+1  60     / cldocov[month] - cloud cover (%)
+2  59
+3  55
+4  62
+5  67
+6  72
+7  73
+8  76
+9  73
+10 75
+11 65
+12 66
+4 12   / min and max temperature for bottom soil layer (degrees C)
+0.0046    / damping factor for calculating soil temperature by layer
+60.0     / timlag, days from Jan 1 to coolest temp at bottom of soil (days)
+0.03     / min water/temperature limitation coefficient for nitrify
+0 0      / turn off respiration restraint on denit between these Julian dates
+0.8      / nitrification N2O adjustment factor (0.0-1.0)
+340.0    / elevation, meters
+0.0      / site slope, degrees
+0.0      / site aspect, degrees
+0.0      / site east horizon, degrees
+0.0      / site west horizon, degrees
+1   0.5  / sradadj[month] srad adjust for cloud cover & transmission coeff
+2   0.5 
+3   0.5 
+4   0.5 
+5   0.5 
+6   0.5 
+7   0.5 
+8   0.5 
+9   0.5 
+10  0.5 
+11  0.5
+12  0.5
+1.0      / slope for adjusting minimum temperature for VPD dewpoint calc
+0.0      / intercept for adjusting minimum temperature for VPD dewpoint calc

@@ -1,0 +1,1384 @@
+Entering function initlyrs
+
+Soil Structure: 
+lyr	dpthmn	dpthmx	bulkd	fieldc	wiltpt	ecoeff	tcoeff	sand	clay	org	swclim	satcond	pH
+  0	  0.0	  2.0	0.80	0.4300	0.1900	0.80	0.01	0.70	0.08	0.12	0.15	0.00244	4.80
+  1	  2.0	  5.0	0.80	0.4300	0.1900	0.20	0.04	0.70	0.08	0.12	0.16	0.00244	4.80
+  2	  5.0	 10.0	1.25	0.2100	0.1200	0.00	0.25	0.70	0.08	0.04	0.10	0.00244	4.80
+  3	 10.0	 20.0	1.25	0.2100	0.1200	0.00	0.30	0.69	0.02	0.04	0.11	0.00244	4.80
+  4	 20.0	 30.0	1.44	0.1570	0.0580	0.00	0.10	0.69	0.02	0.01	0.06	0.00435	4.80
+  5	 30.0	 45.0	1.44	0.1570	0.0580	0.00	0.05	0.69	0.02	0.01	0.06	0.00435	4.80
+  6	 45.0	 60.0	1.44	0.1570	0.0580	0.00	0.04	0.69	0.02	0.01	0.06	0.00435	4.80
+  7	 60.0	 75.0	1.44	0.1570	0.0580	0.00	0.03	0.69	0.02	0.01	0.06	0.00435	4.80
+  8	 75.0	 90.0	1.44	0.1570	0.0580	0.00	0.03	0.69	0.02	0.01	0.06	0.00435	4.80
+  9	 90.0	105.0	1.44	0.1570	0.0580	0.00	0.02	0.69	0.02	0.01	0.06	0.00435	4.80
+ 10	105.0	120.0	1.44	0.1570	0.0580	0.00	0.02	0.69	0.02	0.01	0.06	0.00435	4.80
+ 11	120.0	150.0	1.44	0.1570	0.0580	0.00	0.02	0.69	0.02	0.01	0.06	0.00435	4.80
+ 12	150.0	180.0	1.44	0.1570	0.0580	0.00	0.02	0.69	0.02	0.01	0.06	0.00435	4.80
+ 13	180.0	225.0	1.44	0.1570	0.0580	0.00	0.02	0.69	0.02	0.01	0.06	0.00435	4.80
+ 14	225.0	270.0	1.44	0.1570	0.0580	0.00	0.02	0.69	0.02	0.01	0.06	0.00435	4.80
+
+Calculated soil parameters: 
+lyr	width	depth	thetas	psis	b	binv
+  0	  2.0	  1.0	 40.264	 10.318	 4.146	0.2412
+  1	  3.0	  3.5	 40.264	 10.318	 4.146	0.2412
+  2	  5.0	  7.5	 40.264	 10.318	 4.146	0.2412
+  3	 10.0	 15.0	 40.628	 11.673	 3.207	0.3118
+  4	 10.0	 25.0	 40.628	 11.673	 3.207	0.3118
+  5	 15.0	 37.5	 40.628	 11.673	 3.207	0.3118
+  6	 15.0	 52.5	 40.628	 11.673	 3.207	0.3118
+  7	 15.0	 67.5	 40.628	 11.673	 3.207	0.3118
+  8	 15.0	 82.5	 40.628	 11.673	 3.207	0.3118
+  9	 15.0	 97.5	 40.628	 11.673	 3.207	0.3118
+ 10	 15.0	112.5	 40.628	 11.673	 3.207	0.3118
+ 11	 30.0	135.0	 40.628	 11.673	 3.207	0.3118
+ 12	 30.0	165.0	 40.628	 11.673	 3.207	0.3118
+ 13	 45.0	202.5	 40.628	 11.673	 3.207	0.3118
+ 14	 45.0	247.5	 40.628	 11.673	 3.207	0.3118
+nelyrs =    2
+Exiting function initlyrs
+Entering function initsite
+usexdrvrs: 2
+sublimscale: 1.000000
+reflec: 0.180000
+albedo: 0.200000
+fswcinit: 0.600000
+dmpflux: 0.000008
+hours_rain: 10.000000
+drainlag: 0
+watertable: 1  0
+watertable: 2  0
+watertable: 3  0
+watertable: 4  0
+watertable: 5  0
+watertable: 6  0
+watertable: 7  0
+watertable: 8  0
+watertable: 9  0
+watertable: 10  0
+watertable: 11  0
+watertable: 12  0
+hpotdeep: -200.000000
+ksatdeep: 0.000300
+Cloud cover:
+cloud cover: 1   60.00
+cloud cover: 2   59.00
+cloud cover: 3   55.00
+cloud cover: 4   62.00
+cloud cover: 5   67.00
+cloud cover: 6   72.00
+cloud cover: 7   73.00
+cloud cover: 8   76.00
+cloud cover: 9   73.00
+cloud cover: 10   75.00
+cloud cover: 11   65.00
+cloud cover: 12   66.00
+tbotmn: 4.000000
+tbotmx: 12.000000
+damping factor: 0.004600
+lag time: 60.000000
+water/temp coeff: 0.030000
+jdayStart: 0
+jdayEnd: 0
+N2O adjustment factor at field capacity: 0.014000
+N2O adjustment factor at wilting point: 0.003000
+Maximum daily nitrifcation amount: 0.400000
+Snow insulating flag: 1
+Fraction of new net mineralization to NO3: 0.200000
+Adjustment on WFPS inflection point for denit: 1.340000
+N2/N2O ratio adjustment coefficient: 0.930000
+Elevation (meters): 340.000000
+Site slope (degrees): 0.000000
+Site aspect (degrees): 0.000000
+Site east horizon (degrees): 0.000000
+Site west horizon (degrees): 0.000000
+Solar radiation adjustment factor: 1 0.500000
+Solar radiation adjustment factor: 2 0.500000
+Solar radiation adjustment factor: 3 0.500000
+Solar radiation adjustment factor: 4 0.500000
+Solar radiation adjustment factor: 5 0.500000
+Solar radiation adjustment factor: 6 0.500000
+Solar radiation adjustment factor: 7 0.500000
+Solar radiation adjustment factor: 8 0.500000
+Solar radiation adjustment factor: 9 0.500000
+Solar radiation adjustment factor: 10 0.500000
+Solar radiation adjustment factor: 11 0.500000
+Solar radiation adjustment factor: 12 0.500000
+Slope for VPD min temp adjustment: 1.000000
+Slope for VPD min temp adjustment: 0.000000
+Maximum carbon loss due to photodecomp: 2.130180E-006
+Litter biomass at full absorption of radiation: 200.000000
+MTI max increase ratio: 5.000000
+MTI min effective solar radiation (KJ): 0.000000
+MTI max effective solar radiation (KJ): 30000.000000
+MDR min reduce ratio: 0.200000
+MDR min effective solar radiation (KJ): 0.000000
+MDR max effective solar radiation (KJ): 30000.000000
+Fraction of C flow loss due to photodecomp (0.0-1.0): 0.700000
+maxphoto init. lignin slope (ug C/KJ srad/unit lig frac.): -7.455910E-006
+Exiting function initsite
+sitlat =  42.54
+rlatitude =   0.74
+ly   swcinit    swcmin    minpot
+ 0    0.5160    0.3000  -618.7441
+ly   swcinit    swcmin    minpot
+ 1    0.7740    0.4800  -473.4826
+ly   swcinit    swcmin    minpot
+ 2    0.6300    0.5000  -3323.4233
+ly   swcinit    swcmin    minpot
+ 3    1.2600    1.1000  -770.8268
+ly   swcinit    swcmin    minpot
+ 4    0.9420    0.5800  -6003.2944
+ly   swcinit    swcmin    minpot
+ 5    1.4130    0.8700  -6003.2925
+ly   swcinit    swcmin    minpot
+ 6    1.4130    0.8700  -6003.2925
+ly   swcinit    swcmin    minpot
+ 7    1.4130    0.8700  -6003.2925
+ly   swcinit    swcmin    minpot
+ 8    1.4130    0.8700  -6003.2925
+ly   swcinit    swcmin    minpot
+ 9    1.4130    0.8700  -6003.2925
+ly   swcinit    swcmin    minpot
+10    1.4130    0.8700  -6003.2925
+ly   swcinit    swcmin    minpot
+11    2.8260    1.7400  -6003.2925
+ly   swcinit    swcmin    minpot
+12    2.8260    1.7400  -6003.2925
+ly   swcinit    swcmin    minpot
+13    4.2390    2.6100  -6003.2944
+ly   swcinit    swcmin    minpot
+14    4.2390    2.6100  -6003.2944
+Output (0/1)    file_name       description
+0               bio.out         # daily above and below ground live carbon
+wrt = 0
+0               soiln.out       # daily soil ammonium and nitrate by layer
+wrt = 0
+1               soiltavg.out    # daily average soil temperature by layer
+wrt = 1
+0               soiltmax.out    # daily maximum soil temperature by layer
+wrt = 0
+0               soiltmin.out    # daily minimum soil temperature by layer
+wrt = 0
+0               stemp_dx.out    # daily soil temperature every few cm (HUGE)!
+wrt = 0
+1               vswc.out        # daily volumetric soilwater content by layer
+wrt = 1
+0               watrbal.out     # daily water balance
+wrt = 0
+0               wfps.out        # daily water filled pore space by layer
+wrt = 0
+0               co2.out         # daily CO2 concentrations by layer
+wrt = 0
+0               wflux.out       # daily water flux through the bottom of soil layers
+wrt = 0
+0               resp.out        # daily respiration
+wrt = 0
+0               year_sum.out    # yearly gas fluxes
+wrt = 0
+0               livec.out       # daily live C
+wrt = 0
+0               deadc.out       # daily dead C
+wrt = 0
+0               soilc.out       # daily soil C
+wrt = 0
+0               sysc.out        # daily system C
+wrt = 0
+0               tgmonth.out     # monthly trace gas fluxes
+wrt = 0
+0               dN2lyr.out      # daily denitrification N2 fluxes by layer
+wrt = 0
+0               dN2Olyr.out     # daily denitrification N2O fluxes by layer
+wrt = 0
+0               dels.out        # daily delta 13C/14C values
+wrt = 0
+1               dc_sip.csv      # daily evap/tran, resp, system C, and NPP
+wrt = 1
+0               harvest.csv     # state of the system at time of harvest
+wrt = 0
+0               cflows.out      # daily carbon flows due to decompostion
+wrt = 0
+0               year_cflows.out # annual accumulators of decomp carbon flows
+wrt = 0
+0               daily.out       # daily ET, defac, soil temp, snow, and therm units
+wrt = 0
+0               nflux.out       # daily trace gases, nitrification, denitrification
+wrt = 0
+0               summary.out     # daily climate, trace gas, and CO resp
+wrt = 0
+1               psyndy.out      # daily photosynthesis values
+wrt = 1
+Open dc_sip.csv
+Open psyn.out
+Exitting initsw...
+ 0 ::  0  1  2
+ 1 ::  3  4
+ 2 ::  5
+ 3 ::  6
+ 4 ::  7  8
+ 5 ::  9 10
+ 6 :: 11
+ 7 :: 12 13
+ 8 :: 14
+swflag = 0
+sand =  0.70
+silt =  0.22
+clay =  0.08
+bulkd =  1.02
+pH =  4.80
+awilt[0] = 0.155000
+afiel[0] = 0.320000
+awilt[1] = 0.089000
+afiel[1] = 0.183500
+awilt[2] = 0.058000
+afiel[2] = 0.157000
+awilt[3] = 0.058000
+afiel[3] = 0.157000
+awilt[4] = 0.058000
+afiel[4] = 0.157000
+awilt[5] = 0.058000
+afiel[5] = 0.157000
+awilt[6] = 0.058000
+afiel[6] = 0.157000
+awilt[7] = 0.058000
+afiel[7] = 0.157000
+awilt[8] = 0.058000
+afiel[8] = 0.157000
+awilt[9] = 0.190000
+afiel[9] = 0.430000
+calciv   : npool_sum = 2.4087999631   minerl_sum = 2.4087999091  npool-minrl = 0.0000000540
+ minerl[1][N] = 1.5287998915
+minerl[2][N] = 0.1800000072
+minerl[3][N] = 0.1000000015
+minerl[4][N] = 0.1000000015
+minerl[5][N] = 0.1000000015
+minerl[6][N] = 0.1000000015
+minerl[7][N] = 0.1000000015
+minerl[8][N] = 0.1000000015
+minerl[9][N] = 0.1000000015
+minerl[10][N] = 0.0000000000
+nitrate[0] = 0.1070159962
+nitrate[1] = 0.3057599891
+nitrate[2] = 1.1160239602
+nitrate[3] = 0.0900000036
+nitrate[4] = 0.0900000036
+nitrate[5] = 0.1000000015
+nitrate[6] = 0.1000000015
+nitrate[7] = 0.0500000007
+nitrate[8] = 0.0500000007
+nitrate[9] = 0.0500000007
+nitrate[10] = 0.0500000007
+nitrate[11] = 0.1000000015
+nitrate[12] = 0.0400000006
+nitrate[13] = 0.0600000009
+nitrate[14] = 0.1000000015
+nitrate[15] = 0.0000000000
+ammonium = 0.0000000000
+  
+    Model is running...
+  Using only air temp for PET calc
+  Using srad and vpd for photosynthesis calc
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    8.50000000       14.8706226    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    8.57999992       14.9935560    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.32999992       14.3204641    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.42000008       14.2986975    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.42000008       13.8487034    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.50000000       14.1921644    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.50000000       13.7266579    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.57999992       14.5007038    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    9.67000008       14.5544348    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    10.3299999       13.6764574    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    10.4200001       13.3413019    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    10.4200001       12.0673752    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    10.5000000       13.2409182    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    10.5000000       14.3905478    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    10.5799999       13.7868690    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    11.3299999       14.2575617    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    12.3299999       14.1517143    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    16.3299999       13.3875751    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1852.57996       14.9429531    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.25000       14.9078503    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.32996       14.3237734    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.32996       14.1635141    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.42004       14.9093218    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.42004       14.2807980    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.50000       14.9528208    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1853.57996       14.8322678    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1854.25000       14.9029131    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1854.32996       14.6628971    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1854.42004       14.9584913    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1854.50000       14.4075298    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1854.50000       14.9544706    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1854.67004       14.9209023    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1855.32996       14.2674036    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1855.32996       14.3057690    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1855.42004       14.2234602    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1855.42004       14.6501942    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1855.50000       14.7786846    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1855.57996       14.4669914    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1856.25000       14.8337841    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1856.32996       14.6231794    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1856.42004       13.8715048    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1856.42004       13.7123632    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1856.50000       14.5716362    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1856.57996       14.6670141    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1857.17004       14.9544764    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1857.32996       14.4977741    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1857.42004       14.4554548    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1857.42004       13.9977207    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1857.50000       14.2715559    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1857.57996       14.9990005    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.17004       14.6742201    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.32996       14.7174673    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.32996       14.7586832    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.42004       14.7529087    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.42004       14.3955460    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.50000       14.4889660    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1858.57996       14.7557545    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1859.25000       14.7421894    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1859.32996       14.7829533    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1859.42004       14.5792522    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1859.50000       13.9000816    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1859.57996       14.8478575    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1859.67004       14.5951223    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1860.25000       14.5234098    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1860.32996       13.9942656    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1860.42004       14.2880898    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1860.50000       14.7177620    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1860.57996       14.7481298    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1860.75000       14.9036064    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1861.32996       14.8058205    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1861.42004       14.9559898    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1861.42004       14.0413094    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1861.50000       14.5587769    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1861.57996       14.9784832    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1862.25000       14.6406736    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1862.32996       14.7065392    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1862.42004       14.2119322    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1862.42004       14.6064329    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1862.50000       14.0825672    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1862.50000       14.7879257    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1863.25000       14.9064665    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1863.32996       14.6914206    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1863.42004       14.7938213    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1863.42004       14.4059906    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1863.50000       14.5061884    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1863.57996       14.9980488    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1864.32996       14.8861380    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1864.32996       14.6336250    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1864.42004       14.7802181    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1864.50000       14.8626289    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1864.57996       14.5578833    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1864.67004       14.6901035    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1865.25000       14.8134384    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1865.32996       14.9389105    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1865.42004       14.3376751    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1865.50000       13.9742908    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1865.57996       14.6688938    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1865.75000       14.9195671    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1866.32996       14.8773985    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1866.42004       14.6761007    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1866.42004       14.7889652    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1866.50000       14.5168962    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1866.50000       14.7044468    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1866.75000       14.9377413    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1867.32996       14.7558727    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1867.32996       13.9393063    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1867.42004       14.6702461    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1867.50000       14.4806919    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1867.50000       14.9193506    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1867.67004       14.7441111    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1868.32996       14.3296328    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1868.32996       14.2572565    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1868.42004       14.0135040    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1868.42004       13.8770676    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1868.50000       14.3808327    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1868.57996       14.5684032    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1869.17004       14.9936047    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1869.32996       14.6682682    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1869.42004       14.7370386    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1869.42004       14.7026787    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1869.50000       14.6676292    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1869.67004       14.9357347    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1870.32996       14.1441460    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1870.32996       14.9815245    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1870.42004       14.0278320    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1870.50000       14.6514187    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1870.50000       14.9081697    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1870.67004       14.6494093    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1871.25000       14.9704552    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1871.32996       13.8921356    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1871.42004       14.2943525    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1871.42004       14.5442028    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1871.50000       14.8806229    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1871.57996       14.9136467    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1872.25000       14.7219124    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1872.32996       14.9369659    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1872.42004       14.9235353    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1872.50000       13.9271040    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1872.50000       14.6704731    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1872.57996       14.6027164    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1873.25000       14.5189199    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1873.32996       13.8382072    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1873.42004       14.8990793    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1873.42004       14.1683111    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1873.50000       14.5594320    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1873.57996       14.9663324    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1874.25000       14.6368237    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1874.32996       14.4627495    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1874.42004       14.9617949    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1874.42004       14.9663410    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1874.50000       14.4628410    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1874.57996       14.9094505    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1875.25000       14.9335442    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1875.32996       14.6567106    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1875.42004       14.6775188    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1875.42004       14.6529093    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1875.50000       14.7897930    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1875.57996       14.6119385    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1876.32996       14.2674866    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1876.32996       14.4389362    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1876.42004       14.3854532    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1876.50000       14.7434969    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1876.57996       14.6104631    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.25000       14.8686724    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.32996       14.6366405    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.32996       14.3938074    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.42004       14.8394499    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.50000       14.7824545    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.50000       14.9836178    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1877.67004       14.8869038    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1878.32996       14.7397146    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1878.32996       14.6536350    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1878.42004       14.9402628    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1878.50000       14.4747467    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1878.57996       14.8878269    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1879.25000       14.9327126    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1879.32996       14.9804277    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1879.42004       14.0238819    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1879.42004       14.9101887    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1879.50000       14.8418341    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1879.57996       14.9136410    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1880.25000       14.3446913    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1880.32996       14.4955502    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1880.42004       14.4436493    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1880.42004       13.9304094    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1880.50000       14.7854443    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1880.67004       14.6728058    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1881.32996       14.5493822    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1881.42004       14.3087072    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1881.42004       14.4493151    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1881.50000       14.0975590    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1881.50000       14.7242737    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1881.67004       14.9716921    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1882.25000       14.6076870    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1882.32996       14.8350592    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1882.42004       14.0160398    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1882.42004       14.3432064    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1882.50000       14.7571907    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1882.67004       14.8060884    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.32996       14.4428329    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.32996       14.9118757    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.42004       14.2335377    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.42004       14.0458221    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.50000       14.6411304    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.50000       14.9895391    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1883.67004       14.9838457    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1884.32996       14.4786158    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1884.42004       14.1944122    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1884.42004       14.9328327    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1884.50000       14.4539299    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1884.67004       14.9882641    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1885.32996       14.1730433    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1885.32996       14.8675508    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1885.42004       14.2612886    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1885.42004       14.9342508    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1885.50000       14.6506777    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1885.57996       14.9519424    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1886.25000       14.0661964    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1886.32996       14.5808611    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1886.42004       14.2894430    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1886.42004       14.8562231    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1886.50000       14.5091181    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1886.57996       14.6323376    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1887.25000       14.7470284    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1887.32996       14.8731585    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1887.42004       14.5826654    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1887.42004       14.2317295    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1887.50000       14.7039804    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1887.57996       14.5907402    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1888.25000       14.8425789    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1888.32996       14.7640467    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1888.32996       14.9819479    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1888.42004       14.3040171    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1888.50000       14.1693296    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1888.57996       14.6324463    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1889.25000       14.9531984    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1889.32996       14.3107376    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1889.42004       14.1649218    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1889.42004       14.7358065    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1889.50000       14.7111015    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1889.57996       14.9325609    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1890.25000       14.7972736    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1890.32996       14.6029816    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1890.42004       14.6673346    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1890.42004       14.8027563    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1890.50000       14.4299545    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1890.57996       14.5623589    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1891.32996       14.8493843    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1891.32996       14.7991829    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1891.42004       14.2417297    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1891.50000       14.8089275    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1891.50000       14.4224615    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.17004       14.9276466    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.32996       14.7848186    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.32996       14.6423597    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.42004       14.6294842    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.42004       14.5432806    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.50000       14.9337196    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1892.57996       14.9565115    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1893.32996       14.5965729    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1893.32996       14.5386391    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1893.42004       14.2096634    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1893.50000       14.1286259    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1893.50000       14.7916174    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1894.25000       14.7774734    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1894.32996       14.8719492    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1894.42004       14.9166946    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1894.42004       14.9486141    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1894.50000       14.4560318    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1894.57996       14.9540358    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1895.25000       14.1034441    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1895.32996       14.6843052    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1895.42004       14.4606504    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1895.42004       14.9519854    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1895.50000       14.9712296    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1895.67004       14.4854259    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1896.32996       14.5908298    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1896.42004       14.6624537    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1896.42004       14.4243307    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1896.50000       14.7763510    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1896.50000       14.2674255    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1896.67004       14.8535957    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1897.25000       14.9420710    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1897.32996       13.7841902    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1897.42004       14.1174765    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1897.42004       14.8649960    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1897.50000       14.4578314    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1897.57996       14.8759966    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.25000       14.3535185    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.32996       14.4434843    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.42004       14.6362581    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.42004       14.0968952    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.50000       14.3941879    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.50000       14.7346897    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1898.67004       14.8803558    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1899.32996       14.4119949    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1899.42004       14.7639551    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1899.42004       13.9541264    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1899.50000       14.9803038    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1899.67004       14.9769011    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1900.25000       1.06361413    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.32996       14.3624859    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1900.32996       14.9120340    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.32996       14.2728319    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.42004       13.5376873    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.42004       14.4037714    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.50000       13.6473455    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.50000       14.5112963    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1900.50000       14.7286949    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1900.57996       14.4812517    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.25000       14.6046991    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.32996       14.3140039    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1901.32996       14.9074278    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.42004       14.7367487    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.42004       14.4753323    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.50000       14.9065685    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1901.50000       14.8134308    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.57996       14.5488214    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1901.67004       14.8692427    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1902.32996       14.8968878    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1902.32996       14.9505157    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1902.42004       14.4828577    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1902.42004       14.8556652    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1902.50000       13.6940765    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1902.50000       14.8860703    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1902.50000       14.5673780    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1902.57996       14.6676798    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.25000       14.7648373    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1903.32996       14.9850521    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.32996       14.5685701    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.42004       14.6128330    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.42004       14.3304195    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.50000       14.8179016    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1903.50000       14.8084021    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.50000       14.3685684    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1903.67004       14.9681807    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1904.32996       14.7343225    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1904.32996       14.8387814    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1904.42004       13.8496227    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1904.42004       14.8391323    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1904.50000       13.7890921    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1904.50000       14.9242315    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1904.57996       14.5607500    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1904.67004       14.8105822    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1905.32996       14.7535925    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1905.32996       14.7201071    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1905.32996       14.3954411    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1905.42004       14.9494343    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1905.50000       14.4637527    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1905.57996       14.2293024    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1905.57996       14.9837246    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1905.67004       14.8036671    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1906.32996       14.2344828    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1906.42004       14.0398540    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1906.42004       14.7803268    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1906.42004       14.4046555    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1906.50000       14.3608875    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1906.57996       14.7942743    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.25000       14.5530128    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1907.32996       14.7953606    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.32996       14.5659485    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.42004       13.7357492    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.42004       14.2099752    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.50000       13.7943039    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.50000       14.7208242    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1907.57996       14.9150581    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1908.32996       14.4333763    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1908.32996       14.9939251    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1908.42004       14.6392498    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1908.42004       13.8839483    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1908.50000       13.9590769    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1908.57996       14.6229496    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1908.57996       14.7793169    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1909.32996       14.8648491    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1909.32996       14.8271856    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1909.42004       14.5307055    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1909.42004       14.9861488    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1909.42004       14.5157461    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1909.50000       14.4014235    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1909.57996       14.4046593    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1909.57996       14.2789564    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1909.67004       14.7954721    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1910.32996       14.8792486    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1910.32996       14.8191385    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1910.42004       13.7279034    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1910.42004       14.8911171    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1910.42004       13.4144268    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1910.50000       14.7608166    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1910.50000       14.0582142    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1910.57996       14.9235296    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1910.57996       14.9735928    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1911.25000       14.4771652    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1911.32996       14.9856520    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1911.42004       14.1859837    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1911.42004       14.9937477    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1911.50000       14.4276237    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1911.50000       14.2335272    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1911.57996       14.8672085    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1912.32996       14.7875223    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1912.32996       14.6206570    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1912.32996       14.7960978    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1912.42004       14.5262337    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1912.50000       14.8355465    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1912.57996       14.5687342    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1913.32996       14.6376457    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1913.32996       14.0813303    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1913.32996       14.9099884    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1913.42004       14.7091694    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1913.50000       14.8354740    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1913.50000       14.7807131    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1914.25000       14.4302216    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1914.32996       14.6361027    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1914.42004       14.5570335    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1914.50000       14.5327969    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1914.67004       14.9043722    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1915.32996       14.7317162    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1915.32996       14.5873594    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1915.42004       14.9019547    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1915.42004       14.6683121    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1915.50000       14.9205265    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1915.57996       14.9795961    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1916.32996       14.3920250    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1916.42004       14.8704948    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1916.42004       14.5485888    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1916.50000       14.9480343    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1916.67004       14.7997017    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1917.32996       14.5085840    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1917.42004       14.6803999    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1917.50000       14.3491240    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1917.57996       14.5438738    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1918.25000       14.6483727    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1918.32996       14.9332161    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1918.42004       14.5932150    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1918.50000       13.8003922    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1918.57996       14.4889193    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1919.25000       14.7745285    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1919.42004       14.6918869    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1919.50000       14.6790848    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1919.57996       14.7913465    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1920.25000       14.9361553    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1920.32996       14.8025379    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1920.42004       14.7965794    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1920.50000       14.9544535    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1921.25000       14.8026237    
+ Warning, carbostg pool below minimal in treegrow
+ time = , carbostg =    1921.32996       14.2040443    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1921.32996       14.7954130    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1921.42004       14.7782307    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1921.50000       14.3104906    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1922.25000       14.8588181    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1922.32996       14.4491415    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1922.42004       14.3486729    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1922.50000       14.7651682    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1923.25000       14.8809538    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1923.32996       14.8243389    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1923.42004       14.9027338    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1923.57996       14.8209286    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1924.32996       14.6889954    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1924.42004       14.5844402    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1924.50000       14.8449764    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1924.57996       14.7178164    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1925.32996       14.9305143    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1925.42004       14.9112911    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1925.50000       14.8565712    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1926.25000       14.9607677    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1926.42004       14.5634489    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1926.42004       14.6125126    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1926.50000       14.6302004    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1927.25000       14.8673801    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1927.32996       14.5442352    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1927.50000       14.6799202    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1927.67004       14.8970852    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1928.32996       14.9814444    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1928.42004       14.6504660    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1928.50000       14.9207230    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1928.67004       14.9808960    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1929.32996       14.6929493    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1929.50000       14.7772255    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1929.57996       14.6519833    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1930.32996       14.8741932    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1930.42004       14.9463625    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1930.50000       14.9591885    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1931.25000       14.9660540    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1931.32996       14.6526527    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1931.50000       14.4870253    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1931.57996       14.9688807    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1932.25000       14.8352232    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1932.42004       14.7471619    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1932.50000       14.8522263    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1932.67004       14.9836330    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1933.32996       14.5363045    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1933.42004       14.5785456    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1933.50000       14.8474569    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1934.25000       14.9532328    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1934.42004       14.8361635    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1934.50000       14.9084225    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1934.57996       14.9826870    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1935.32996       14.9167986    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1935.42004       14.6389837    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1935.57996       14.6510401    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1936.32996       14.8263884    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1936.42004       14.8540821    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1936.50000       14.9644327    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1937.25000       14.9755926    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1937.42004       14.9537687    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1937.50000       14.7009935    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1937.57996       14.8301077    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1938.32996       14.9539194    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1938.42004       14.6873827    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1938.57996       14.9865494    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1939.32996       14.9009809    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1939.42004       14.9660330    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1939.50000       14.8881607    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1939.57996       14.4838991    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1940.25000       14.8864012    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1940.42004       14.5084591    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1940.42004       14.2806835    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1940.57996       14.9737291    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1941.32996       14.7401838    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1941.42004       14.5433283    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1941.50000       14.6202803    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1941.50000       14.8886766    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1942.25000       14.9393167    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1942.32996       14.6939230    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1942.42004       14.8498220    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1942.50000       14.7408810    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1943.25000       14.6131229    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1943.32996       14.6119013    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1943.42004       14.8137865    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1943.50000       14.6190939    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1943.67004       14.9534550    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1944.32996       14.5531044    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1944.42004       14.5384569    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1944.57996       14.9193459    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1945.32996       14.7203398    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1945.42004       14.7627821    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1945.50000       14.8140383    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1945.57996       14.8479395    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1946.25000       14.9042683    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1946.42004       14.3740444    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1946.50000       14.9284391    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1946.57996       14.9192047    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1947.32996       14.9773350    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1947.42004       14.9262152    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1947.50000       14.4603910    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1947.57996       14.8664169    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1948.32996       14.8054485    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1948.42004       14.8136396    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1948.50000       14.9705830    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1948.67004       14.9794941    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1949.32996       14.9842224    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1949.42004       14.7206326    
+ Warning, carbostg pool below minimal in growth
+ time = , carbostg =    1949.50000       14.7464104    

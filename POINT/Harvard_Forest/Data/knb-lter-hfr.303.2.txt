@@ -1,0 +1,921 @@
+Dataset title:  Effects of Warming on Soil Biogeochemistry at Harvard Forest 2014-2015
+
+Dataset ID:  HF303
+Dataset Creator
+
+	Name:		Kristen DeAngelis
+
+	Name:		Jerry Melillo
+
+	Name:		Grace Pold
+
+
+Dataset Abstract
+
+
+
+Dataset Keywords
+
+	carbon
+	climate change
+	microbial biomass
+	soil carbon
+	soil chemistry
+	soil organic matter
+	soil warming
+	organic matter
+	Harvard Forest
+	HFR
+	LTER
+	USA
+
+
+Intellectual Rights
+
+
+
+Distribution
+
+	Online distribution:  http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf303
+
+
+Geographic Coverage
+
+
+	Bounding Coordinates
+
+		Geographic description:	Prospect Hill Tract (Harvard Forest)
+		West bounding coordinate:	-72.18
+		East bounding coordinate:	-72.18
+		North bounding coordinate:	+42.54
+		South bounding coordinate:	+42.54
+	
+
+
+
+Temporal Coverage
+
+	Start Date:  2014
+	End Date:  2015
+
+
+Dataset Contact
+
+
+
+Methods
+
+
+
+	Method Step 
+
+		Description 
+
+
+
+Data Table
+
+	Entity Name:  hf303-01-lipid-p.csv
+	Entity Description:  microbial biomass based on lipid P
+	Object Name:  hf303-01-lipid-p.csv
+
+
+
+Data Format
+
+	Number of Header Lines:  1
+	Attribute Orientation:  column
+	Field Delimiter:  ,
+	Number of Records:  144
+
+
+
+Attributes
+
+	Attribute Name:  warming
+	Attribute Label:  
+	Attribute Definition:  warming treatment of plot of origin
+	Storage Type:  
+	Measurement Scale: 
+		C= disturbance control
+		H= heated
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  soil.type
+	Attribute Label:  
+	Attribute Definition:  soil type analyzed
+	Storage Type:  
+	Measurement Scale: 
+		Mineral= mineral
+		Organic= organic
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  plot
+	Attribute Label:  
+	Attribute Definition:  plot identification number
+	Storage Type:  
+	Measurement Scale: 
+		plot identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  timepoint
+	Attribute Label:  
+	Attribute Definition:  sampling timepoint
+	Storage Type:  
+	Measurement Scale: 
+		sampling timepoint
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  doy
+	Attribute Label:  
+	Attribute Definition:  day of year in 2014 when soil was sampled
+	Storage Type:  
+	Measurement Scale: 
+		Units:  nominalDay
+		Precision:  1
+		Number Type:  natural
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  date
+	Attribute Label:  
+	Attribute Definition:  date of soil sampling
+	Storage Type:  
+	Measurement Scale: 
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  lipidp.dry
+	Attribute Label:  
+	Attribute Definition:  lipid phosphate mass per gram of dry soil
+	Storage Type:  
+	Measurement Scale: 
+		Units:		nanogramPerGram
+		Precision:  0.00000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  lipidp.wet
+	Attribute Label:  
+	Attribute Definition:  lipid phosphate mass per gram of wet soil
+	Storage Type:  
+	Measurement Scale: 
+		Units:		nanogramPerGram
+		Precision:  0.00000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification number
+	Storage Type:  
+	Measurement Scale: 
+		sample identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  treatment
+	Attribute Label:  
+	Attribute Definition:  warming treatment of plot of origin
+	Storage Type:  
+	Measurement Scale: 
+		dc= disturbance control
+		h= heated plots
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  d13c
+	Attribute Label:  
+	Attribute Definition:  delta 13C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  number
+		Precision:  0.00000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  c.ug
+	Attribute Label:  
+	Attribute Definition:  micrograms carobon in sample
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgram
+		Precision:  0.000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  d15n
+	Attribute Label:  
+	Attribute Definition:  delta 14N
+	Storage Type:  
+	Measurement Scale: 
+		Units:  number
+		Precision:  0.000000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  n.ug
+	Attribute Label:  
+	Attribute Definition:  micrograms nitrogen in sample
+	Storage Type:  
+	Measurement Scale: 
+		Units:  microgram
+		Precision:  0.000000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  material
+	Attribute Label:  
+	Attribute Definition:  mineral soil sampled at 0-3 cm depth
+	Storage Type:  
+	Measurement Scale: 
+		mineral soil sampled at 0-3 cm depth
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  analysis
+	Attribute Label:  
+	Attribute Definition:  analysis
+	Storage Type:  
+	Measurement Scale: 
+		analysis
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  enriched
+	Attribute Label:  
+	Attribute Definition:  whether or not enriched
+	Storage Type:  
+	Measurement Scale: 
+		No= not enriched
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  amount
+	Attribute Label:  
+	Attribute Definition:  mass of soil analyzed
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  lab.id
+	Attribute Label:  
+	Attribute Definition:  lab identification number
+	Storage Type:  
+	Measurement Scale: 
+		lab identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  analysis.num
+	Attribute Label:  
+	Attribute Definition:  analysis identification number
+	Storage Type:  
+	Measurement Scale: 
+		analysis identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification name
+	Storage Type:  
+	Measurement Scale: 
+		sample identification name
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  warming.treatment
+	Attribute Label:  
+	Attribute Definition:  warming treatment of plot of origin
+	Storage Type:  
+	Measurement Scale: 
+		H= heated
+		C= disturbance control
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  plot
+	Attribute Label:  
+	Attribute Definition:  plot identification number
+	Storage Type:  
+	Measurement Scale: 
+		plot identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  soil
+	Attribute Label:  
+	Attribute Definition:  soil type analyzed
+	Storage Type:  
+	Measurement Scale: 
+		Organic= organic
+		Mineral= mineral
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  aromatic
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to aromatic compounds
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  lignin
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to lignin
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  lipid
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to lipid compounds
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  polysaccharide
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to polysaccharides
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  nbearing
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to N-bearing
+      compounds
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  protein
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to proteins
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  phenol
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area assigned to phenolic compounds
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  unknown.origin
+	Attribute Label:  
+	Attribute Definition:  fraction of peak area which could not be assigned to specific compound
+      classes
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification name
+	Storage Type:  
+	Measurement Scale: 
+		sample identification name
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  depth
+	Attribute Label:  
+	Attribute Definition:  depth of soil used
+	Storage Type:  
+	Measurement Scale: 
+		>3= greater than 3 cm
+		0-3= 0-3 cm
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  warming.treatment
+	Attribute Label:  
+	Attribute Definition:  warming treatment of plot of origin
+	Storage Type:  
+	Measurement Scale: 
+		C= disturbance control
+		H= heated
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  plot
+	Attribute Label:  
+	Attribute Definition:  plot identification number
+	Storage Type:  
+	Measurement Scale: 
+		plot identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  soil.wt
+	Attribute Label:  
+	Attribute Definition:  soil weight
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  lg.wt
+	Attribute Label:  
+	Attribute Definition:  weight of soil aggregates greater than 250um
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  micro.wt
+	Attribute Label:  
+	Attribute Definition:  weight of aggregates less than 250um
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  fpom.wt
+	Attribute Label:  
+	Attribute Definition:  weight of fine particulate organic matter fraction (less than
+      250um)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  opom.wt
+	Attribute Label:  
+	Attribute Definition:  weight of occluded particulate organic matter inside
+      aggregates
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  mom.wt
+	Attribute Label:  
+	Attribute Definition:  weight of mineral-associated fraction in aggregates
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  siltclay.wt
+	Attribute Label:  
+	Attribute Definition:  weight of less than 53um sand/silt soil fraction not in
+      aggregates
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  cpom.wt
+	Attribute Label:  
+	Attribute Definition:  weight of coarse particulate organic matter (greater than
+      250um)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  fpomopom
+	Attribute Label:  
+	Attribute Definition:  mass ratio of free fine particulate organic matter to that occluded in
+      aggregates
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.000000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  opommom
+	Attribute Label:  
+	Attribute Definition:  mass ratio of occluded particulate organic matter to mineral organic
+      matter
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.000000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification name
+	Storage Type:  
+	Measurement Scale: 
+		sample identification name
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  weight
+	Attribute Label:  
+	Attribute Definition:  amount of soil used for CN analysis
+	Storage Type:  
+	Measurement Scale: 
+		Units:  milligram
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  n
+	Attribute Label:  
+	Attribute Definition:  nitrogen fraction percent by mass
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  c
+	Attribute Label:  
+	Attribute Definition:  carbon fraction percent by mass
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  fraction
+	Attribute Label:  
+	Attribute Definition:  soil fraction used
+	Storage Type:  
+	Measurement Scale: 
+		CPOM= coarse particulate organic matter
+		FPOM= fine particulate organic matter
+		MOM= mineral-associated organic matter
+		OPOM= occluded particulate organic matter
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  timepoint
+	Attribute Label:  
+	Attribute Definition:  sampling timepoint
+	Storage Type:  
+	Measurement Scale: 
+		sampling timepoint
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification name
+	Storage Type:  
+	Measurement Scale: 
+		sample identification name
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  enzyme
+	Attribute Label:  
+	Attribute Definition:  extracellular enzyme assayed
+	Storage Type:  
+	Measurement Scale: 
+		BX= beta-xylosidase
+		CBH= cellobiohydrolase
+		HPO= peroxidase
+		NAG= N-acetylglucosaminidase
+		BG= beta-glucosidase
+		PO= phenol oxidase
+		PHOS= phosphatase
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  warming
+	Attribute Label:  
+	Attribute Definition:  warming treatment of plot of origin
+	Storage Type:  
+	Measurement Scale: 
+		H= heated
+		DC= disturbance control
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  plot
+	Attribute Label:  
+	Attribute Definition:  plot identification number
+	Storage Type:  
+	Measurement Scale: 
+		plot identification number
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  soil
+	Attribute Label:  
+	Attribute Definition:  soil type analyzed
+	Storage Type:  
+	Measurement Scale: 
+		Mineral= mineral
+		Organic= organic
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  eea
+	Attribute Label:  
+	Attribute Definition:  extracellular enzyme activity rate (nmols substrate per gram of dry soil
+      per hour)
+	Storage Type:  
+	Measurement Scale: 
+		Units:		nanamolePerGramPerHour
+		Precision:  0.000000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  water.content
+	Attribute Label:  
+	Attribute Definition:  gravimetric moisture content
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.01
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  doy
+	Attribute Label:  
+	Attribute Definition:  day of year of sampling in 2014
+	Storage Type:  
+	Measurement Scale: 
+		Units:  nominalDay
+		Precision:  1
+		Number Type:  natural
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  date
+	Attribute Label:  
+	Attribute Definition:  date of sampling
+	Storage Type:  
+	Measurement Scale: 
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification name
+	Storage Type:  
+	Measurement Scale: 
+		sample identification name
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  replicate
+	Attribute Label:  
+	Attribute Definition:  technical replicate
+	Storage Type:  
+	Measurement Scale: 
+		technical replicate
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  n
+	Attribute Label:  
+	Attribute Definition:  percent nitrogen
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  c
+	Attribute Label:  
+	Attribute Definition:  percent carbon
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  other
+	Attribute Label:  
+	Attribute Definition:  soil into CN analyzer minus sum (carbon mass + nitrogen
+      mass)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  c.n
+	Attribute Label:  
+	Attribute Definition:  carbon to nitrogen ratio
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.00000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  plot
+	Attribute Label:  
+	Attribute Definition:  soil warming plot identification
+	Storage Type:  
+	Measurement Scale: 
+		soil warming plot identification
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  warming
+	Attribute Label:  
+	Attribute Definition:  warming treatment
+	Storage Type:  
+	Measurement Scale: 
+		H= heated
+		C= disturbance control
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  soil
+	Attribute Label:  
+	Attribute Definition:  soil type sampled
+	Storage Type:  
+	Measurement Scale: 
+		Organic= organic
+		Mineral= mineral
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  sample.id
+	Attribute Label:  
+	Attribute Definition:  sample identification name
+	Storage Type:  
+	Measurement Scale: 
+		sample identification name
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  treatment
+	Attribute Label:  
+	Attribute Definition:  warming treatment of plot of origin
+	Storage Type:  
+	Measurement Scale: 
+		H= heated
+		DC= disturbance control
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  soil
+	Attribute Label:  
+	Attribute Definition:  soil type sampled
+	Storage Type:  
+	Measurement Scale: 
+		M= 0-10cm depth mineral soil
+		O= organic horizon soil
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  plot
+	Attribute Label:  
+	Attribute Definition:  soil warming plot identification
+	Storage Type:  
+	Measurement Scale: 
+		soil warming plot identification
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  loi.tin
+	Attribute Label:  
+	Attribute Definition:  weight of tin (for taring)
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  loi.soil
+	Attribute Label:  
+	Attribute Definition:  weight of tin plus soil before ashing
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  loi.550c.4hrs
+	Attribute Label:  
+	Attribute Definition:  weight of tin plus soil after ashing
+	Storage Type:  
+	Measurement Scale: 
+		Units:  gram
+		Precision:  0.0001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  per.loi
+	Attribute Label:  
+	Attribute Definition:  percent Loss on Ignition after 4 hours at 550C
+	Storage Type:  
+	Measurement Scale: 
+		Units:  dimensionless
+		Precision:  0.00000001
+		Number Type:  real
+	Missing Value Code: NA  (missing value)
+
+
+	Attribute Name:  timepoint
+	Attribute Label:  
+	Attribute Definition:  timepoint sampled during the growing season, 2014
+	Storage Type:  
+	Measurement Scale: 
+		Free text (unrestricted)
+		T1= April 28
+		T2= June 3
+		T3= June 30
+		T4= August 25
+		T5= September 22
+		T6= October 28
+	Missing Value Code: NA  (missing value)
+
+
